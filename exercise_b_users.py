@@ -76,8 +76,8 @@ users["Erik"]["lottery_number"] = [18, 34, 8, 11, 24, 7]
 # 8. Change Erik's hometown to Edinburgh
 users["Erik"]["home_town"] = "Edinburgh"
 # 9. Add a pet dog to Erik called "fluffy"
-
-
+erik_new_pet = {"name": "fluffy", "species": "dog"}
+users["Erik"].update(erik_new_pet)
 # 10. Add another person to the users dictionary
 new_user = {"Xell": {}}
 users.update(new_user)
